@@ -469,11 +469,11 @@ ul {
 }
 
 .social-icon {
-  fill: var(--btn-hover-color);
+  fill: var(--card-prinspl-color);
 }
 
-.social-link-icon :hover,
-.social-link-icon :focus {
+.social-link-icon:hover,
+.social-link-icon:focus {
   background-color: var(--btn-hover-color);
 }
 
@@ -508,12 +508,13 @@ ul {
   height: 100%;
   border: 1px solid var(--cust-border-color);
   border-radius: 4px;
-  color: var(--color-icon-customers);
+  color: var(--cust-border-color);
+
   /* outline: 2px dashed  teal; */
 }
 
-.customer-linc :hover,
-.customer-linc :focus {
+.customer-linc:hover,
+.customer-linc:focus {
   border: 1px solid var(--btn-hover-color);
   border-color: var(--btn-hover-color);
   color: var(--btn-hover-color);
@@ -589,8 +590,8 @@ ul {
   fill: var(--color-icon-foter);
 }
 
-.footer .social-link-icon :hover,
-.footer .social-link-icon :focus {
+.footer .social-link-icon:hover,
+.footer .social-link-icon:focus {
   background-color: #31d0aa;
 }
 
@@ -657,8 +658,8 @@ ul {
   display: block;
 }
 
-.link-progects :hover,
-.link-progects :focus {
+.link-progects:hover,
+.link-progects:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
